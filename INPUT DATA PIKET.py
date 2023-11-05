@@ -5,8 +5,8 @@ daftarPiket =[]
 
 while True:
     print("Masukkan Data Piket")
-    nama = input("Nama:")
-    jadwal = input("Hari:")
+    nama = input("Nama: ")
+    jadwal = input("Hari: ")
 
     dataPiket = [nama, jadwal]
     daftarPiket.append(dataPiket)
